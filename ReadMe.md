@@ -75,7 +75,33 @@ This service serves two major application which are smarte and MICA mobile aapli
 ### Symptoms
 Unable to start the service.
 
-### Root Cause, Solution, prevention
+### Root Cause, 
+1. Port 1883 may not be open or maybe used by other service.
+2. Database connecion failed.
+### Solution, prevention
+visit: https://github.com/memmcolapps/mqtt-service-app.git
+
+## node payment web service
+
+### Description
+This backend service is built with node, and serve as servic for momaspay applicaion. 
+This service manage some section in momaspay application however some of this section depend on java endpoint (paymentwebserviceV5) to complete it process. such as when user what performa the following task
+1. Initiating paystack payment (depend on java endpoint).
+2. Verify paystack payment (depend on java endpoint).
+3. Initiating remita payment.
+4. Verify remita payment.
+5. Reprint token (depend on java endpoint).
+6. Sent Otp to email.
+7. Sent customer token to email.
+
+### Symptoms
+1. Unable to vend on momaspay (paystack connection timeout)
+
+### Root Cause, 
+1. Node service not started
+2. If node service is running, then then java service stop running or freeze
+### Solution, prevention
+Start node service
 visit: https://github.com/memmcolapps/mqtt-service-app.git
 
 ## Add another problem title
