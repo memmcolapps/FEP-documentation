@@ -76,6 +76,7 @@ This service serves two major application which are smarte and MICA mobile aapli
 Unable to start the service.
 
 ### Root Cause, Solution, prevention
+visit: [mqtt-service-documentation][https://github.com/memmcolapps/mqtt-service-app.git]
 
 ### Solution
 
