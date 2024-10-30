@@ -66,8 +66,20 @@ The connection pool is exhausted due to connections not being properly closed af
 - Use try-with-resources for automatic connection closing
 - Set up alerts for connection pool usage reaching 80% capacity
 
-### Another Problem Title
+## MQTT Service
 
+### Description
+This is the Event-driven service that enables real time communication to devices or clients.
+This service serves two major application which are smarte and MICA mobile aaplication.
+
+### Symptoms
+Unable to start the service.
+
+### Root Cause, Solution, prevention
+
+### Solution
+
+### Prevention
 [Follow the same structure as above]
 
 ---
