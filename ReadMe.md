@@ -77,7 +77,7 @@ Unable to start the service.
 
 ### Root Cause, 
 1. Port 1883 may not be open or maybe used by other service.
-2. Database connecion failed.
+2. Database connection failed.
 ### Solution, prevention
 visit: https://github.com/memmcolapps/mqtt-service-app.git
 
