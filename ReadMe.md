@@ -105,6 +105,37 @@ Start node service
 
 visit: https://github.com/memmcolapps/node_paymentwebservice_v5.git
 
+---
+
+## Error Generating Token
+
+### Description
+
+This error occurs when a request is sent to fetch a token after payment validation, but the system is unable to dispense the token.
+
+### Symptoms
+
+- Application throws a "Connection Timed Out" error.
+- Users receive the message "Error Generating Token..."
+- Inability to dispense token.
+
+### Root Cause
+
+The token generation service is down due to power or network failure on the destination server.
+
+### Solution
+
+1. Even if power is restored after a power failure, the service may not automatically start unless a system administrator logs into the server, which initiates the service.
+2. Users should check with the ICT department to ensure the network is up and stable.
+3. If both conditions have been met but the token is still not dispensed, restart the server.
+
+### Prevention
+
+- Ensure a constant power supply.
+- Maintain network uptime within a 95%-99% range.
+- Configure the service as a Windows service to auto-start on system startup, eliminating the need for manual login by the system administrator.
+
+---
 ## Add another problem title
 [Follow the same structure as above]
 
