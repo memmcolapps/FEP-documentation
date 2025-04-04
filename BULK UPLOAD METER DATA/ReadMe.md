@@ -1,4 +1,3 @@
-```markdown
 # New MomasPay - Bulk Meter Data Upload Guide
 
 This document provides instructions on how to bulk upload meter data into the New MomasPay system. Following these guidelines will ensure successful data import and prevent errors.
@@ -57,6 +56,5 @@ meterNo, metersimno, transid, status, accountno, isamr, metermodel, isdualtariff
 ## Data Validation
 
 Always validate your data *before* uploading to prevent errors and ensure data integrity. Pay close attention to the constraints outlined above. Incorrect or missing data can lead to import failures.
-```
 
 CURRENTLY MAINTAINED BY MOSHOOD ALIMI
