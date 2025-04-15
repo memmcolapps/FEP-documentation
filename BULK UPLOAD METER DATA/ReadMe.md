@@ -19,7 +19,7 @@ meterNo, metersimno, transid, status, accountno, isamr, metermodel, isdualtariff
 
 | Header          | Description                                                                                                  | Data Type | Constraints                                                       |
 | :-------------- | :----------------------------------------------------------------------------------------------------------- | :-------- | :---------------------------------------------------------------- |
-| `meterNo`       | Meter Number                                                                                                 | Text      | Unique identifier for the meter                                 |
+| `meterno`       | Meter Number                                                                                                 | Text      | Unique identifier for the meter                                 |
 | `metersimno`    | Meter SIM Number                                                                                             | Text      | SIM number associated with the meter, if applicable                |
 | `transid`       | Transformer ID                                                                                               | Integer   | ID obtained from the Transformer Module                         |
 | `status`        | Meter Status                                                                                                 | Integer   | `0` (Pending) or `2` (Active)                                   |
